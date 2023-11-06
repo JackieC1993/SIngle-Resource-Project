@@ -3,16 +3,13 @@ const pizzaRouter = express.Router();
 const { getAllPizzas, getPizzaById, createPizza, updatePizza, deletePizza } = require('../queries/pizza')
 
 
-
-
-
 pizzaRouter.get('/', async (req, res) => {
-    try {
         const pizzas = await getAllPizzas();
-        res.status(200).json(pizzas);
-    } catch (error) {
-        res.status(500).json({error: "Internal Server Error"});
-    }
+        if(pizzas){
+            res.status(200).json(pizzas);
+        } else {
+            res.status(500).json({error: "Internal Server Error"});
+        }
 });
 
 

@@ -5,10 +5,10 @@ CREATE DATABASE pizza_dev;
 CREATE TABLE pizza
 (
     id SERIAL PRIMARY KEY,
-    name NOT NULL,
-    price VALUE,
-    description TEXT,
+    name TEXT NOT NULL,
+    price DECIMAL,
+    ingredient TEXT,
     topping TEXT,
     vegan BOOLEAN,
-    size TEXT,
-)
+    size TEXT
+);
