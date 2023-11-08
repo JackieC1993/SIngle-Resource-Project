@@ -56,6 +56,10 @@ Trello Link to our project strategy (https://trello.com/b/LPDFmsjj/pizza-single-
 License
 This project is licensed under the Pursuit 10.1 Cohort Fellows( Shaka Livingstone, Jackie Cheung)
 
+GitHub Project Link for the Frontend Project: https://github.com/ShakaPursuit/Single-Resource-Front_End
+
+GitHub Project Link for the Backend Project: https://github.com/JackieC1993/SIngle-Resource-Project
+
 Contact
 If you have any questions or need assistance, feel free to contact us at [shakalivingstone@pursuit.org,jackiecheung@pursuit.org].
 
