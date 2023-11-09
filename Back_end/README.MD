@@ -51,7 +51,7 @@ Pg-Promise
 Cors
 DotEnv
 
-Trello Link to our project strategy (https://trello.com/b/LPDFmsjj/pizza-single-resource-project)
+Trello Link to our project strategy: (https://trello.com/b/LPDFmsjj/pizza-single-resource-project)
 
 License
 This project is licensed under the Pursuit 10.1 Cohort Fellows( Shaka Livingstone, Jackie Cheung)
